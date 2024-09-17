@@ -1,0 +1,90 @@
+.d1{
+    display: flex;
+    justify-content: center;
+}
+.d2{
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.in1{
+    width: 40vw;
+    /* height: 30wh; */
+}
+.in1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.in3{
+    display: flex;
+}
+.p2 span{
+display: inline-block;
+padding: 10px;
+border: 2px solid rgb(78, 128, 237);
+font-weight: bold;
+
+}
+.in4{
+    display: flex;
+}
+.p3 span{
+display: inline-block;
+padding: 10px;
+border: 2px solid rgb(78, 128, 237);
+font-weight: bold;
+
+}
+
+.in5,.in6,.in7,.in8{
+display: flex;
+justify-content: center;
+
+}
+.in55{
+text-align: center;
+width: 16vw;
+}
+.in7 p{
+text-align: center;
+}
+@media screen and (max-width:800px){
+    .d1{
+        display: flex;
+        justify-content: center;
+    }
+    .d2{
+        width: 90%;
+    }
+    .in1 {
+        width: 90%;
+    }
+    .in3{
+        display: flex;
+        flex-direction: column;
+    }
+    .in3 img{
+        width: 60vw;
+    }
+    .in4{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .in4 img{
+        width: 60vw;
+    }
+    .in5,.in6{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .in55 {
+        text-align: center;
+        width: 90%;
+    }
+    .in7 img , .in8 img{
+        width: 20%;
+    }
+}
